@@ -1,0 +1,2 @@
+SELECT * FROM login_user('a.adel', 'New.pass.vue');
+SELECT * FROM role;

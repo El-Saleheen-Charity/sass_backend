@@ -1,0 +1,8 @@
+{
+  "jwtPrivateKey": "8werKVBCpy1IbzUo1DcYb8pFRBIrIekT",
+  "dbhost": "127.0.0.4",
+  "dbname": "charity",
+  "dbuser": "postgres",
+  "dbpass": "231133",
+  "dbport": "5432"
+}

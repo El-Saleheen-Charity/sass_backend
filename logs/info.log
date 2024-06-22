@@ -1,0 +1,22 @@
+Mon Jun 10 2024 15:11:35 info: Listening on port 3000... 
+Mon Jun 10 2024 15:11:35 info: Connected to PostgreSQL database 
+Mon Jun 10 2024 15:11:42 info: Authentication successful for user: a.adel 
+Mon Jun 10 2024 15:12:14 info: Authentication failed for user: a.a5del 
+Mon Jun 10 2024 15:15:08 info: Authentication failed for user: undefined 
+Mon Jun 10 2024 16:24:33 info: Listening on port 3000... 
+Mon Jun 10 2024 16:24:33 info: Connected to PostgreSQL database 
+Mon Jun 10 2024 16:24:36 info: Authentication failed for user: undefined 
+Mon Jun 10 2024 16:24:50 info: Authentication successful for user: a.adel 
+Mon Jun 10 2024 16:28:12 info: Listening on port 3000... 
+Mon Jun 10 2024 16:28:12 info: Connected to PostgreSQL database 
+Mon Jun 10 2024 16:28:15 info: Authentication successful for user: a.adel 
+Mon Jun 10 2024 16:31:35 info: Listening on port 3000... 
+Mon Jun 10 2024 16:31:36 info: Connected to PostgreSQL database 
+Mon Jun 10 2024 16:31:40 info: Authentication successful for user: a.adel 
+Fri Jun 21 2024 11:07:00 error: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Fri Jun 21 2024 11:07:01 info: Connected to PostgreSQL database 
+Fri Jun 21 2024 11:08:03 error: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Fri Jun 21 2024 11:08:04 info: Connected to PostgreSQL database 
+Fri Jun 21 2024 11:09:59 info: Listening on port 8000... 
+Fri Jun 21 2024 11:09:59 info: Connected to PostgreSQL database 
+Fri Jun 21 2024 11:10:03 info: Authentication successful for user: a.adel 

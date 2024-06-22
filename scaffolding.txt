@@ -1,0 +1,1 @@
+npx sequelize-auto -h 127.0.0.1 -d charity -u postgres -x 231133 -e postgres --caseModel p -o "models" --typescript --useDefine
