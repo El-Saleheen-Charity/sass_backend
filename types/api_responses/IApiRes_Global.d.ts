@@ -1,8 +1,8 @@
 // ApiResponse.ts
-interface GlobalResponse<T> {
+interface IApiRes_Global<T> {
   success: boolean;
   message?: string;
   data?: T;
 }
 
-export default GlobalResponse;
+export default IApiRes_Global;

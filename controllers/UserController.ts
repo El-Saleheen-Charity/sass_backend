@@ -2,18 +2,18 @@ import { Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { getUserLogin } from "../database/UserQueries";
 import Logger from "../startup/logging";
-import GlobalResponse from "../types/api_responses/GlobalResponse";
-import ApiResUserLogin from "../types/api_responses/ApiResUserLogin";
-import DBResponseUserLogin from "../types/db_responses/DBResponseUserLogin";
+import IApiRes_Global from "../types/api_responses/IApiRes_Global";
+import IApiRes_UserLogin from "../types/api_responses/IApiRes_UserLogin";
+import IQR_UserLogin from "../types/query_results/IQR_UserLogin";
 import config from "config";
 
 export async function userLoginHandler(req: Request, res: Response) {
-  let response: GlobalResponse<ApiResUserLogin> = {
+  let response: IApiRes_Global<IApiRes_UserLogin> = {
     success: false,
   };
 
   // Getting the user from the database.
-  const user: DBResponseUserLogin | null = await getUserLogin(req.body.username, req.body.password);
+  const user: IQR_UserLogin | null = await getUserLogin(req.body.username, req.body.password);
 
   // If the user is not found, return an error message.
   if (!user) {
@@ -31,7 +31,7 @@ export async function userLoginHandler(req: Request, res: Response) {
   return res.status(200).send(response);
 }
 
-function generateToken(user: DBResponseUserLogin) {
+function generateToken(user: IQR_UserLogin) {
   const KEY: string = config.get("jwtPrivateKey");
 
   return jwt.sign(

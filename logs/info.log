@@ -20,3 +20,62 @@ Fri Jun 21 2024 11:08:04 info: Connected to PostgreSQL database
 Fri Jun 21 2024 11:09:59 info: Listening on port 8000... 
 Fri Jun 21 2024 11:09:59 info: Connected to PostgreSQL database 
 Fri Jun 21 2024 11:10:03 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 11:53:44 info: Listening on port 8000... 
+Sun Jun 23 2024 11:53:44 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 11:54:10 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:05:33 info: Listening on port 8000... 
+Sun Jun 23 2024 12:05:33 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:06:04 info: Listening on port 8000... 
+Sun Jun 23 2024 12:06:04 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:06:17 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:06:57 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:07:10 info: Listening on port 8000... 
+Sun Jun 23 2024 12:07:10 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:11:27 info: Listening on port 8000... 
+Sun Jun 23 2024 12:11:27 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:11:30 info: Authentication failed for user: a.adel 
+Sun Jun 23 2024 12:11:40 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:21:57 error: Uncaught Exception: ⨯ Unable to compile TypeScript:
+[96mutils/jwt.ts[0m:[93m3[0m:[93m45[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IJwtToken'.
+
+[7m3[0m export const decodeToken = (token: string): IJwtToken | null => {
+[7m [0m [91m                                            ~~~~~~~~~[0m
+[96mutils/jwt.ts[0m:[93m6[0m:[93m35[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IJwtToken'.
+
+[7m6[0m       return jwt.decode(token) as IJwtToken;
+[7m [0m [91m                                  ~~~~~~~~~[0m
+ 
+Sun Jun 23 2024 12:21:57 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:22:41 info: Listening on port 8000... 
+Sun Jun 23 2024 12:22:41 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:23:13 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:23:21 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:23:52 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:23:59 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:24:56 info: Listening on port 8000... 
+Sun Jun 23 2024 12:24:56 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 12:25:10 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 12:25:28 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 13:02:32 info: Listening on port 8000... 
+Sun Jun 23 2024 13:02:32 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 13:02:42 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 13:52:03 info: Listening on port 8000... 
+Sun Jun 23 2024 13:52:03 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 13:52:09 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 13:53:18 info: Listening on port 8000... 
+Sun Jun 23 2024 13:53:18 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 13:54:37 info: Listening on port 8000... 
+Sun Jun 23 2024 13:54:37 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 13:54:57 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 14:01:31 info: Listening on port 8000... 
+Sun Jun 23 2024 14:01:31 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 14:02:17 info: Listening on port 8000... 
+Sun Jun 23 2024 14:02:17 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 14:03:34 info: Listening on port 8000... 
+Sun Jun 23 2024 14:03:34 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 15:22:38 info: Authentication successful for user: a.adel 
+Sun Jun 23 2024 15:33:12 info: Listening on port 8000... 
+Sun Jun 23 2024 15:33:12 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 16:43:23 info: Listening on port 8000... 
+Sun Jun 23 2024 16:43:23 info: Connected to PostgreSQL database 
+Sun Jun 23 2024 16:43:32 info: Authentication successful for user: a.adel 

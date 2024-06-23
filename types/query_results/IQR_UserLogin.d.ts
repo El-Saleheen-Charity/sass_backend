@@ -1,4 +1,4 @@
-interface DBResponseUserLogin {
+interface IQR_UserLogin {
   id: number;
   name: string;
   username: string;
@@ -7,4 +7,4 @@ interface DBResponseUserLogin {
   organization_id: number;
 }
 
-export default DBResponseUserLogin;
+export default IQR_UserLogin;
